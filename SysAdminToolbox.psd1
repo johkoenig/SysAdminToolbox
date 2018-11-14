@@ -4,7 +4,7 @@
     RootModule        = 'SysAdminToolbox.psm1'
 
     # Die Versionsnummer dieses Moduls
-    ModuleVersion     = '0.0.1'
+    ModuleVersion     = '0.1'
 
     # Unterstützte PSEditions
     # CompatiblePSEditions = @()
@@ -89,7 +89,7 @@
     # FileList = @()
 
     # Die privaten Daten, die an das in "RootModule/ModuleToProcess" angegebene Modul übergeben werden sollen. Diese können auch eine PSData-Hashtabelle mit zusätzlichen von PowerShell verwendeten Modulmetadaten enthalten.
-    PrivateData       = @{
+    PrivateData  = @{
 
         PSData = @{
 
@@ -97,7 +97,7 @@
             # Tags = @()
 
             # Eine URL zur Lizenz für dieses Modul.
-            # LicenseUri = ''
+            LicenseUri = 'https://github.com/johkoenig/SysAdminToolbox/blob/master/LICENSE'
 
             # Eine URL zur Hauptwebsite für dieses Projekt.
             ProjectUri = 'https://github.com/johkoenig/SysAdminToolbox'
