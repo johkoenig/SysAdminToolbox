@@ -11,3 +11,7 @@ Import-Module .\SysAdminToolbox.psd1
 ````
 
 In case you want to import a newer version of the toolbox while an older has been imported already, use the parameter `-Force`.
+
+## Roadmap
+
+No precise roadmap, I'm adding stuff whenever I find something useful. Documenting will be a focus. Any help is appreciated.
