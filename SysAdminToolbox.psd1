@@ -61,7 +61,11 @@
     # NestedModules = @()
 
     # Aus diesem Modul zu exportierende Funktionen. Um optimale Leistung zu erzielen, verwenden Sie keine Platzhalter und löschen den Eintrag nicht. Verwenden Sie ein leeres Array, wenn keine zu exportierenden Funktionen vorhanden sind.
-    FunctionsToExport = @('Test-DistinguishedName',
+    FunctionsToExport = @('Convert-MacToIPv6',
+        'ConvertTo-CamelCase',
+        'Disable-TunnelingProtocols',
+        'Get-BootMode',
+        'Test-DistinguishedName',
         'Test-MacAddress',
         'Test-SecureBoot',
         'Test-SessionElevation')
