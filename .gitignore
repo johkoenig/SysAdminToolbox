@@ -1,0 +1,12 @@
+# Dev Environments, like VS Code and IntelliJ
+.idea
+.vscode
+
+# Auto-ignore files and folders ending on _gitignore
+*_gitignore
+
+# Operating System Files
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
