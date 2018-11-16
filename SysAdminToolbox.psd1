@@ -4,7 +4,7 @@
     RootModule        = 'SysAdminToolbox.psm1'
 
     # Die Versionsnummer dieses Moduls
-    ModuleVersion     = '0.1'
+    ModuleVersion     = '0.1.1'
 
     # Unterstützte PSEditions
     # CompatiblePSEditions = @()
@@ -65,6 +65,7 @@
         'ConvertTo-CamelCase',
         'Disable-TunnelingProtocols',
         'Get-BootMode',
+        'Get-ADBitlockerRecoveryInformation',
         'Test-DistinguishedName',
         'Test-MacAddress',
         'Test-SecureBoot',
