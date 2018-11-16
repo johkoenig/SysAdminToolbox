@@ -17,11 +17,11 @@ function Test-MacAddress {
     System.Boolean. Test-MacAddress returns whether the given String is a valid MAC-Adress
 
     .EXAMPLE
-    C:\PS> Test-MacAddress 'aa:bb:cc:dd:ee:ff'
+    PS C:\> Test-MacAddress 'aa:bb:cc:dd:ee:ff'
     True
 
     .EXAMPLE
-    C:\PS> 'aa:bb:cc:dd:ee:ff' | Test-MacAddress
+    PS C:\> 'aa:bb:cc:dd:ee:ff' | Test-MacAddress
     True
     
     #>

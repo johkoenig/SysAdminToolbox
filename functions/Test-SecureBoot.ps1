@@ -2,9 +2,16 @@ function Test-SecureBoot {
     <#
     
     .SYNOPSIS
+
     Returns whether Secure Boot is activated or not
 
+    .EXAMPLE
+
+    PS C:\> Test-SecureBoot
+    True
+
     .OUTPUTS
+    
     System.Boolean. Returns whether Secure Boot is activated or not.
 
     #>

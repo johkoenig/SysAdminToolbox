@@ -20,15 +20,15 @@ function ConvertTo-CamelCase {
     If LowerCamelCase Switch is activated, the string will be returned with first lower first letter
 
     .EXAMPLE
-    C:\> ConvertTo-CamelCase 'Report Template_Official'
+    PS C:\> ConvertTo-CamelCase 'Report Template_Official'
     ReportTemplateOfficial
 
     .EXAMPLE
-    C:\> ConvertTo-CamelCase 'Report Template_Official' -Seperator ' '
+    PS C:\> ConvertTo-CamelCase 'Report Template_Official' -Seperator ' '
     ReportTemplate_official
 
     .EXAMPLE
-    C:\> 'Report Template_Official' | ConvertTo-CamelCase -Seperator ' ' -LowerCamelCase
+    PS C:\> 'Report Template_Official' | ConvertTo-CamelCase -Seperator ' ' -LowerCamelCase
     reportTemplate_official    
     
     .OUTPUTS

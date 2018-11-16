@@ -11,11 +11,11 @@ function Convert-MacToIPv6 {
     System.String. Convert-MacToIPv6 returns the converted link-local IPv6 address as a string   
 
     .EXAMPLE
-    C:\PS> Convert-MacToIPv6 'aa:bb:cc:dd:ee:ff'
+    PS C:\> Convert-MacToIPv6 'aa:bb:cc:dd:ee:ff'
     fe80::a8bb:ccff:fedd:eeff
 
     .EXAMPLE
-    C:\PS> Convert-MacToIPv6 'de:ad:de:ad:be:ef'
+    PS C:\> Convert-MacToIPv6 'de:ad:de:ad:be:ef'
     fe80::dcad:deff:fead:beef
 
     #>

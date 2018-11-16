@@ -3,16 +3,20 @@ function Test-SessionElevation {
     <#
 
     .SYNOPSIS
+
     Tests whether the current session is elevated
 
     .EXAMPLE
-    PS C:\>Test-SessionElevation
+
+    PS C:\> Test-SessionElevation
     True
 
     .OUTPUTS
+
     System.Boolean. Test-SessionElevation returns whether the current PowerShell Session is elevated.
 
     .NOTES
+
     Copied from https://ss64.com/ps/syntax-elevate.html
 
     #>

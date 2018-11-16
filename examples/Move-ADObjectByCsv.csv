@@ -1,3 +1,3 @@
-LDAPFilter,TargetPath,MoveWhenInSubOU
+LDAPFilter,TargetPath,IgnoreWhenInSubOU
 (&(Name=OFFICE1-S*)(objectClass=computer)),"OU=Servers,OU=Office1,DC=company,DC=example,DC=com", true
 (&(Name=OFFICE1-C*)(objectClass=computer)),"OU=Clients,OU=Office1,DC=company,DC=example,DC=com", false
