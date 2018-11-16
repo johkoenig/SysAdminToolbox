@@ -66,6 +66,7 @@
         'Disable-TunnelingProtocols',
         'Get-BootMode',
         'Get-ADBitlockerRecoveryInformation',
+        'Move-ADObjectByCsv',
         'Test-DistinguishedName',
         'Test-MacAddress',
         'Test-SecureBoot',
